@@ -1,0 +1,62 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background: white;
+    width: 200px;
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.dropdown i {
+    position: absolute;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16pt;
+    top: 2px;
+    width: 40px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.dropdown .fa-map-marker-alt {
+    left: 0;
+}
+
+.dropdown .fa-chevron-down {
+    right: 2px;
+    background: white;
+}
+
+.dropdown input {
+    position: absolute;
+    border: 2px solid black;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: 40px;
+    font-size: 14pt;
+}
+
+.dropdown input:focus {
+    border: 2px solid #23e5d8;
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown .options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background: white;
+    width: 100%;
+    box-shadow: 1px 1px 4px #CCC;
+    box-sizing: border-box;
+}
+
+.dropdown .options .option {
+    padding: 10px 0;
+}
